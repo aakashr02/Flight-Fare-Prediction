@@ -2,34 +2,15 @@
 Predicting flight fare using ML 
 
 ## **Problem Statement**
-This should be a brief description of the domain of your dataset (e.g. if it is the Titanic Dataset then write about the ship, the incident that happened, what you're trying to do with the data).
+The Flight Fare Prediction dataset contains the information about the flight routes that different airlines provide and the fares on particular date. 
 
-Dataset
-The dataset used is the [Name of the Dataset](Download link) from (source of download e.g Kaggle). If the task is a classification task, then you must specify the number of classes and give a 1 line description of each class as follows(example of Iris Dataset).
+## **Dataset**
+The dataset used is the Airline Fare Prediction - https://www.kaggle.com/zwartfreak/airline-fare-prediction from Kaggle. 
 
-The 3 class labels are:
+The target variable here is the flight fare given the specific date, source and destination among other attributes. Various airlines operate flights between the cities - Delhi, Mumbai, Kolkata, Chennai, Hyderabad, Cochin and Bangalore.
 
-1. Iris Setosa: Given iris flower belongs to the Setosa species
-2. Iris Virginica: Given iris flower belongs to the Virginica species
-3. Iris Versicolor: Given iris flower belongs to the Versicolor species
+Target Variable: Ticket Price
 
-If the task is a regression task, then explain the target variable and give brief statistics.(e.g. Housing Prices)
+## **Model(s) Used**
+The model used is Random Forest Regression. Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. Ensemble learning method is a technique that combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model.
 
-Target Variable: SalePrice
-
-Sale Price refers to the selling price of the house.
-Mean Selling Price: 121,000$
-Max Selling Price: 1,000,000$
-Min Selling Price: 45,000$
-
-Model(s) Used
-This needs to be a description of the model used and a brief overview of how it works in theory (e.g taken of a CNN Model):
-
-The network architecture used was a basic CNN model, with Max Pooling and ReLU Activation functions. Input images are resized to an optimal size and then fed into the Convolutional layer. These images are converted to their pixel values, which can be imagined as a three-dimensional matrix for the purpose of visualization. The Convolutional layer has a kernel. This kernel is generally a small matrix of specified kernel size mxnx3 (3 for RGB images).
-
-Rectified Linear Unit (ReLU) is the activation layer used in CNNs.The activation function is applied to increase non-linearity in the CNN. Images are made of different objects that are not linear to each other.
-
-Max Pooling: A limitation of the feature map output of Convolutional Layers is that they record the precise position of features in the input. This means that small movements in the position of the feature in the input image will result in a different feature map. This can happen with re-cropping, rotation, shifting, and other minor changes to the input image. A common approach to addressing this problem from signal processing is called down sampling. This is where a lower resolution version of an input signal is created that still contains the large or important structural elements, without the fine detail that may not be as useful to the task.
-
-Future Work
-Good ideas or strategies that you were not able to implement which you think can help improve performance.
