@@ -1,7 +1,7 @@
 # Flight-Fare-Prediction
 Predicting flight fare using ML 
 
-**Problem Statement**
+## **Problem Statement**
 This should be a brief description of the domain of your dataset (e.g. if it is the Titanic Dataset then write about the ship, the incident that happened, what you're trying to do with the data).
 
 Dataset
